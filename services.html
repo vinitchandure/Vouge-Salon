@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services &amp; Menu | VOGUE SALON India</title>
+  <meta name="description" content="Explore luxury salon, bridal, spa, and men's grooming services with editable demo tariffs in Indian Rupees (₹). Direct concierge assistance at 7758990684.">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>">
+</head>
+<body>
+
+  <!-- SITE HEADER / NAVIGATION -->
+  <!-- SITE HEADER / NAVIGATION -->
+  <!-- SITE HEADER / NAVIGATION -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="site-logo" aria-label="VOGUE SALON Home">
+        <img src="assets/images/logo.png" alt="VOGUE SALON" class="logo-image">
+      </a>
+
+      <nav class="nav-center" aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="services.html" class="nav-link active">Services &amp; Menu</a></li>
+          <li><a href="signature-looks.html" class="nav-link">Signature Looks</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+          <li class="nav-item-dropdown">
+            <button class="nav-link nav-dropdown-btn" aria-expanded="false" aria-haspopup="true">
+              <span>More</span>
+              <svg class="dropdown-chevron" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <ul class="nav-dropdown-menu">
+              <li><a href="about.html" class="nav-dropdown-link">About Atelier</a></li>
+              <li><a href="franchise.html" class="nav-dropdown-link">Franchise &amp; Expansion</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeToggleBtn" class="theme-toggle-btn" aria-label="Toggle Light/Dark Theme" title="Toggle Light/Dark Theme"></button>
+        <button class="auth-nav-btn" data-auth-open aria-label="VIP Sign In">VIP Privé</button>
+        <a href="booking.html" class="btn-book-nav">Book Chair</a>
+        <button class="mobile-nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Off-Canvas Drawer -->
+  <div class="mobile-drawer-overlay" id="mobileDrawerOverlay"></div>
+  <aside class="mobile-drawer" id="mobileDrawer" aria-label="Mobile Navigation Menu">
+    <div class="mobile-drawer-top">
+      <a href="index.html" class="mobile-drawer-brand">
+        <img src="assets/images/logo.png" alt="VOGUE SALON" style="height: 42px; width: auto;">
+      </a>
+      <button class="mobile-drawer-close" id="mobileDrawerClose" aria-label="Close navigation menu">&times;</button>
+    </div>
+    <ul class="mobile-drawer-links">
+      <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+      <li><a href="services.html" class="mobile-nav-link active">Services &amp; Menu</a></li>
+      <li><a href="signature-looks.html" class="mobile-nav-link">Signature Looks</a></li>
+      <li><a href="booking.html" class="mobile-nav-link">Book Appointment</a></li>
+      <li><a href="franchise.html" class="mobile-nav-link">Franchise Opportunities</a></li>
+      <li><a href="about.html" class="mobile-nav-link">About Atelier</a></li>
+      <li><a href="contact.html" class="mobile-nav-link">Contact &amp; Locations</a></li>
+    </ul>
+    <div class="mobile-drawer-footer">
+      <a href="booking.html" class="btn btn-primary" style="width: 100%; text-align: center;">Book Chair</a>
+      <a href="https://wa.me/917758990684?text=Hello%20VOGUE%20SALON,%20I%20would%20like%20to%20inquire%20about%20a%20luxury%20appointment." target="_blank" rel="noopener noreferrer" class="btn btn-plum" style="width: 100%; text-align: center; margin-top: 0.6rem;">WhatsApp: 7758990684</a>
+    </div>
+  </aside>
+
+  <main id="main-content">
+    <!-- PAGE HEADER -->
+    <section style="position: relative; padding: calc(var(--nav-height) + 3.5rem) 0 4rem; background: var(--bg-secondary); overflow: hidden; border-bottom: 1px solid var(--border-light);">
+      <div style="position: absolute; inset: 0; opacity: 0.18; z-index: 1;">
+        <img src="assets/images/hair-couture.jpg" alt="VOGUE SALON Hair Couture" style="width: 100%; height: 100%; object-fit: cover; filter: blur(3px);">
+      </div>
+
+      <div class="container" style="position: relative; z-index: 3; text-align: center; max-width: 820px;">
+        <span class="editorial-tag">Haute Repertoire &amp; Tariffs</span>
+        <h1 class="editorial-title" style="margin-bottom: 1rem;">
+          SERVICES &amp; MENU
+        </h1>
+        <p style="color: var(--text-secondary); font-size: 1.05rem; line-height: 1.7;">
+          Explore our complete portfolio of hair, color, bridal, skin, spa, and men’s grooming services. All rates shown in Indian Rupees (₹) are sample demo prices pending salon launch confirmation.
+        </p>
+      </div>
+    </section>
+
+    <!-- MENU DIRECTORY & FILTER -->
+    <section class="section">
+      <div class="container">
+        <!-- Search and Category Filters -->
+        <div class="menu-controls">
+          <div class="menu-search-wrapper">
+            <svg class="menu-search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text" id="serviceSearchInput" class="menu-search-input" placeholder="Search service name, haircut, balayage, facial, bridal, massage...">
+          </div>
+
+          <div class="category-pill-bar">
+            <button class="cat-pill active" data-category="all">All Experiences</button>
+            <button class="cat-pill" data-category="hair-styling">Haircuts &amp; Styling</button>
+            <button class="cat-pill" data-category="hair-colour">Hair Colour</button>
+            <button class="cat-pill" data-category="hair-treatments">Hair Treatments</button>
+            <button class="cat-pill" data-category="skincare-makeup">Skin &amp; Makeup</button>
+            <button class="cat-pill" data-category="spa-body">Spa &amp; Body</button>
+            <button class="cat-pill" data-category="nails">Nails</button>
+            <button class="cat-pill" data-category="grooming">Men’s Grooming</button>
+          </div>
+        </div>
+
+        <!-- Sample Pricing Notice -->
+        <div class="sample-pricing-notice" style="margin-bottom: 2.8rem;">
+          <strong>✦ Sample Pricing Notice:</strong> All values listed below in Indian Rupees (₹) are editable demo prices provided for presentation and salon evaluation. Final salon charges may vary based on hair length, texture, and consultation.
+        </div>
+
+        <!-- Service Rows -->
+        <!-- Service Menu Organized by Categories (Expandable Accordion Groups & Compact Cards) -->
+        <div class="service-menu-list" id="servicesContainer">
+          
+          <!-- 1. Haircuts & Styling -->
+          <section class="service-category-group" data-category="hair-styling">
+            <div class="category-group-header" role="button" tabindex="0" aria-expanded="true">
+              <div class="category-header-title">
+                <span class="category-num">01</span>
+                <h2 class="category-title">Haircuts &amp; Styling</h2>
+                <span class="category-count">5 Options</span>
+              </div>
+              <span class="category-accordion-arrow">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </div>
+            <div class="category-group-content">
+              <div class="service-items-stack">
+                
+                <!-- Haute Layered Wolf Cut -->
+                <article class="menu-item-row" data-category="hair-styling">
+                  <div class="menu-item-bg" style="background-image: url('assets/images/service-wolfcut.jpg');"></div>
+                  <div class="menu-item-overlay"></div>
+                  <div class="menu-item-info">
+                    <div class="menu-item-header">
+                      <h3 class="menu-item-name">Haute Layered Wolf Cut</h3>
+                      <span class="menu-item-tag">Trending Cut</span>
+                    </div>
+                    <p class="menu-item-desc">Shorter choppy layers at the crown, feathered cheek-skimming curtain bangs, and longer textured wispy layers at the back.</p>
+                    <span class="menu-item-duration">⏱ 55 min</span>
+                  </div>
+                  <div class="menu-item-action">
+                    <span class="menu-item-price">₹1,600</span>
+                    <a href="booking.html" class="btn btn-secondary btn-sm">Book Chair</a>
+                  </div>
+                </article>
+
+                <!-- Precision Butterfly Cut -->
+                <article class="menu-item-row" data-category="hair-styling">
+                  <div class="menu-item-bg" style="background-image: url('assets/images/service-butterfly.jpg');"></div>
+                  <div class="menu-item-overlay"></div>
+                  <div class="menu-item-info">
+                    <div class="menu-item-header">
+                      <h3 class="menu-item-name">Precision Butterfly Cut</h3>
+                      <span class="menu-item-tag">High Volume</span>
+                    </div>
+                    <p class="menu-item-desc">Cascading dimensional face-framing wings and airy layered bounce tailored to facial bone structure.</p>
+                    <span class="menu-item-duration">⏱ 50 min</span>
+                  </div>
+                  <div class="menu-item-action">
+                    <span class="menu-item-price">₹1,400</span>
+                    <a href="booking.html" class="btn btn-secondary btn-sm">Book Chair</a>
+                  </div>
+                </article>
+
+                <!-- Women’s Atelier Haircut -->
+                <article class="menu-item-row" data-category="hair-styling">
+                  <div class="menu-item-bg" style="background-image: url('assets/images/slide-haircut.jpg');"></div>
+                  <div class="menu-item-overlay"></div>
+                  <div class="menu-item-info">
+                    <div class="menu-item-header">
+                      <h3 class="menu-item-name">Women’s Atelier Haircut</h3>
+                      <span class="menu-item-tag">Essential</span>
+                    </div>
+                    <p class="menu-item-desc">Custom facial architecture hair sculpting, luxury botanical wash, deep moisture mask, and blow-dry finish.</p>
+                    <span class="menu-item-duration">⏱ 45 min</span>
+                  </div>
+                  <div class="menu-item-action">
+                    <span class="menu-item-price">₹1,200</span>
+                    <a href="booking.html" class="btn btn-secondary btn-sm">Book Chair</a>
+                  </div>
+                </article>
+
+                <!-- Men’s Precision Haircut -->
+                <article class="menu-item-row" data-category="hair-styling">
+                  <div class="menu-item-bg" style="background-image: url('assets/images/mens-grooming.jpg');"></div>
+                  <div class="menu-item-overlay"></div>
+                  <div class="menu-item-info">
+                    <div class="menu-item-header">
+                      <h3 class="menu-item-name">Men’s Precision Haircut</h3>
+                      <span class="menu-item-tag">Barber Craft</span>
+                    </div>
+                    <p class="menu-item-desc">Precision scissor styling, natural neckline taper, scalp rinse, and styling pomade application.</p>
+                    <span class="menu-item-duration">⏱ 35 min</span>
+                  </div>
+                  <div class="menu-item-action">
+                    <span class="menu-item-price">₹700</span>
+                    <a href="booking.html" class="btn btn-secondary btn-sm">Book Chair</a>
+                  </div>
+                </article>
+
+                <!-- Wash & Blow-Dry -->
+                <article class="menu-item-row" data-category="hair-styling">
+                  <div class="menu-item-bg" style="background-image: url('assets/images/slide-blowdry.jpg');"></div>
+                  <div class="menu-item-overlay"></div>
+                  <div class="menu-item-info">
+                    <div class="menu-item-header">
+                      <h3 class="menu-item-name">Wash &amp; Blow-Dry</h3>
+                      <span class="menu-item-tag">Runway Volume</span>
+                    </div>
+                    <p class="menu-item-desc">Purifying botanical wash, Kerastase conditioning mask, round-brush tension styling, and silk finish.</p>
+                    <span class="menu-item-duration">⏱ 40 min</span>
+                  </div>
+                  <div class="menu-item-action">
+                    <span class="menu-item-price">₹900</span>
+                    <a href="booking.html" class="btn btn-secondary btn-sm">Book Chair</a>
+                  </div>
+                </article>
+
+              </div>
+            </div>
+          </section>
+
+          <!-- 2. Hair Colour -->
+          <section class="service-category-group" data-category="hair-colour">
+            <div class="category-group-header" role="button" tabindex="0" aria-expanded="true">
+              <div class="category-header-title">
+                <span class="category-num">02</span>
+                <h2 class="category-title">Hair Colour</h2>
+                <span class="category-count">4 Options</span>
+              </div>
+              <span class="category-accordion-arrow">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </div>
+            <div class="category-group-content">
+              <div class="service-items-stack">
+                
+                <!-- Balayage -->
+                <article class="menu-item-row" data-category="hair-colour">
+                  <div class="menu-item-bg" style="background-image: url('assets/images/service-balayage.jpg');"></div>
+                  <div class="menu-item-overlay"></div>
+                  <div class="menu-item-info">
+                    <div class="menu-item-header">
+                      <h3 class="menu-item-name">Balayage</h3>
+                      <span class="menu-item-tag">Signature Balayage</span>
+                    </div>
+                    <p class="menu-item-desc">Hand-painted dimensional caramel and golden honey babylights melted seamlessly, sealed with Olaplex glaze.</p>
+                    <span class="menu-item-duration">⏱ 180 min</span>
+                  </div>
+                  <div class="menu-item-action">
+                    <span class="menu-item-price">from ₹7,500</span>
+                    <a href="booking.html" class="btn btn-secondary btn-sm">Book Chair</a>
+                  </div>
+                </article>
+
+                <!-- Global Colour -->
+                <article class="menu-item-row" data-category="hair-colour">
+                  <div class="menu-item-bg" style="background-image: url('assets/images/slide-colour.jpg');"></div>
+                  <div class="menu-item-overlay"></div>
+                  <div class="menu-item-info">
+                    <div class="menu-item-header">
+                      <h3 class="menu-item-name">Global Colour</h3>
+                      <span class="menu-item-tag">All-Over Tone</span>
+                    </div>
+                    <p class="menu-item-desc">Ammonia-free rich all-over shade transformation with vibrant light reflection and moisture barrier protection.</p>
+                    <span class="menu-item-duration">⏱ 150 min</span>
+                  </div>
+                  <div class="menu-item-action">
+                    <span class="menu-item-price">from ₹4,500</span>
+                    <a href="booking.html" class="btn btn-secondary btn-sm">Book Chair</a>
+                  </div>
+                </article>
+
+                <!-- Root Touch-Up -->
+                <article class="menu-item-row" data-category="hair-colour">
+                  <div class="menu-item-bg" style="background-image: url('assets/images/slide-finish.jpg');"></div>
+                  <div class="menu-item-overlay"></div>
+                  <div class="menu-item-info">
+                    <div class="menu-item-header">
+                      <h3 class="menu-item-name">Root Touch-Up</h3>
+                      <span class="menu-item-tag">Grey Blending</span>
+                    </div>
+                    <p class="menu-item-desc">Flawless 100% grey coverage and root refresh seamlessly matched with existing mid-lengths and ends.</p>
+                    <span class="menu-item-duration">⏱ 90 min</span>
+                  </div>
+                  <div class="menu-item-action">
+                    <span class="menu-item-price">from ₹2,200</span>
+                    <a href="booking.html" class="btn btn-secondary btn-sm">Book Chair</a>
+                  </div>
+                </article>
+
+                <!-- Fashion Colour (Emerald Green Hair Image!) -->
+                <article class="menu-item-row" data-category="hair-colour">
+                  <div class="menu-item-bg" style="background-image: url('assets/images/service-emerald-hair.jpg');"></div>
+                  <div class="menu-item-overlay"></div>
+                  <div class="menu-item-info">
+                    <div class="menu-item-header">
+                      <h3 class="menu-item-name">Fashion Colour</h3>
+                      <span class="menu-item-tag">Vivid Jewel Tone</span>
+                    </div>
+                    <p class="menu-item-desc">Visibly rich jewel-tone emerald green fantasy transformation with protective bond seals and mirror gloss.</p>
+                    <span class="menu-item-duration">⏱ 180 min</span>
+                  </div>
+                  <div class="menu-item-action">
+                    <span class="menu-item-price">from ₹5,500</span>
+                    <a href="booking.html" class="btn btn-secondary btn-sm">Book Chair</a>
+                  </div>
+                </article>
+
+              </div>
+            </div>
+          </section>
+
+          <!-- 3. Hair Treatments -->
+          <section class="service-category-group" data-category="hair-treatments">
+            <div class="category-group-header" role="button" tabindex="0" aria-expanded="true">
+              <div class="category-header-title">
+                <span class="category-num">03</span>
+                <h2 class="category-title">Hair Treatments</h2>
+                <span class="category-count">3 Options</span>
+              </div>
+              <span class="category-accordion-arrow">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </div>
+            <div class="category-group-content">
+              <div class="service-items-stack">
+                
+                <!-- Nourishing Hair Spa -->
+                <article class="menu-item-row" data-category="hair-treatments">
+                  <div class="menu-item-bg" style="background-image: url('assets/images/hair-couture.jpg');"></div>
+                  <div class="menu-item-overlay"></div>
+                  <div class="menu-item-info">
+                    <div class="menu-item-header">
+                      <h3 class="menu-item-name">Nourishing Hair Spa</h3>
+                      <span class="menu-item-tag">Restorative</span>
+                    </div>
+                    <p class="menu-item-desc">Intense scalp hydration treatment, micro-steam infusion, deep bond repair, and pressure-point head massage.</p>
+                    <span class="menu-item-duration">⏱ 60 min</span>
+                  </div>
+                  <div class="menu-item-action">
+                    <span class="menu-item-price">₹1,800</span>
+                    <a href="booking.html" class="btn btn-secondary btn-sm">Book Chair</a>
+                  </div>
+                </article>
+
+                <!-- Bond Repair Treatment -->
+                <article class="menu-item-row" data-category="hair-treatments">
+                  <div class="menu-item-bg" style="background-image: url('assets/images/salon-interior.jpg');"></div>
+                  <div class="menu-item-overlay"></div>
+                  <div class="menu-item-info">
+                    <div class="menu-item-header">
+                      <h3 class="menu-item-name">Bond Repair Treatment</h3>
+                      <span class="menu-item-tag">Molecular Repair</span>
+                    </div>
+                    <p class="menu-item-desc">Olaplex molecular bond rebuild restoring broken disulfide bonds, tensile strength, and silky resilience.</p>
+                    <span class="menu-item-duration">⏱ 90 min</span>
+                  </div>
+                  <div class="menu-item-action">
+                    <span class="menu-item-price">from ₹3,000</span>
+                    <a href="booking.html" class="btn btn-secondary btn-sm">Book Chair</a>
+                  </div>
+                </article>
+
+                <!-- Scalp Detox -->
+                <article class="menu-item-row" data-category="hair-treatments">
+                  <div class="menu-item-bg" style="background-image: url('assets/images/spa-sanctuary.jpg');"></div>
+                  <div class="menu-item-overlay"></div>
+                  <div class="menu-item-info">
+                    <div class="menu-item-header">
+                      <h3 class="menu-item-name">Scalp Detox</h3>
+                      <span class="menu-item-tag">Clarifying</span>
+                    </div>
+                    <p class="menu-item-desc">Clarifying salicylic and tea tree scalp exfoliation, follicle stimulation, and cooling peppermint mask.</p>
+                    <span class="menu-item-duration">⏱ 45 min</span>
+                  </div>
+                  <div class="menu-item-action">
+                    <span class="menu-item-price">₹1,500</span>
+                    <a href="booking.html" class="btn btn-secondary btn-sm">Book Chair</a>
+                  </div>
+                </article>
+
+              </div>
+            </div>
+          </section>
+
+          <!-- 4. Skin & Makeup -->
+          <section class="service-category-group" data-category="skincare-makeup">
+            <div class="category-group-header" role="button" tabindex="0" aria-expanded="true">
+              <div class="category-header-title">
+                <span class="category-num">04</span>
+                <h2 class="category-title">Skin &amp; Makeup</h2>
+                <span class="category-count">4 Options</span>
+              </div>
+              <span class="category-accordion-arrow">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </div>
+            <div class="category-group-content">
+              <div class="service-items-stack">
+                
+                <!-- Signature Facial -->
+                <article class="menu-item-row" data-category="skincare-makeup">
+                  <div class="menu-item-bg" style="background-image: url('assets/images/skincare-facial.jpg');"></div>
+                  <div class="menu-item-overlay"></div>
+                  <div class="menu-item-info">
+                    <div class="menu-item-header">
+                      <h3 class="menu-item-name">Signature Facial</h3>
+                      <span class="menu-item-tag">Glow Care</span>
+                    </div>
+                    <p class="menu-item-desc">24K gold peptide infusion, chilled cryo roller depuffing, and vortex pore hydration for lit-from-within glow.</p>
+                    <span class="menu-item-duration">⏱ 75 min</span>
+                  </div>
+                  <div class="menu-item-action">
+                    <span class="menu-item-price">from ₹2,500</span>
+                    <a href="booking.html" class="btn btn-secondary btn-sm">Book Chair</a>
+                  </div>
+                </article>
+
+                <!-- Cleanup -->
+                <article class="menu-item-row" data-category="skincare-makeup">
+                  <div class="menu-item-bg" style="background-image: url('assets/images/skincare-facial.jpg');"></div>
+                  <div class="menu-item-overlay"></div>
+                  <div class="menu-item-info">
+                    <div class="menu-item-header">
+                      <h3 class="menu-item-name">Cleanup</h3>
+                      <span class="menu-item-tag">Pore Clarifying</span>
+                    </div>
+                    <p class="menu-item-desc">Ultrasonic comedone extraction, botanical enzyme scrub, and soothing aloe vera tea tree compress.</p>
+                    <span class="menu-item-duration">⏱ 40 min</span>
+                  </div>
+                  <div class="menu-item-action">
+                    <span class="menu-item-price">₹1,200</span>
+                    <a href="booking.html" class="btn btn-secondary btn-sm">Book Chair</a>
+                  </div>
+                </article>
+
+                <!-- Party Makeup -->
+                <article class="menu-item-row" data-category="skincare-makeup">
+                  <div class="menu-item-bg" style="background-image: url('assets/images/runway-couture.jpg');"></div>
+                  <div class="menu-item-overlay"></div>
+                  <div class="menu-item-info">
+                    <div class="menu-item-header">
+                      <h3 class="menu-item-name">Party Makeup</h3>
+                      <span class="menu-item-tag">Occasion Glam</span>
+                    </div>
+                    <p class="menu-item-desc">High-glamour evening red-carpet makeup with sculpted bronze contour, customized silk lashes, and velvet lips.</p>
+                    <span class="menu-item-duration">⏱ 90 min</span>
+                  </div>
+                  <div class="menu-item-action">
+                    <span class="menu-item-price">from ₹4,500</span>
+                    <a href="booking.html" class="btn btn-secondary btn-sm">Book Chair</a>
+                  </div>
+                </article>
+
+                <!-- Bridal Makeup -->
+                <article class="menu-item-row" data-category="skincare-makeup">
+                  <div class="menu-item-bg" style="background-image: url('assets/images/bridal-glam.jpg');"></div>
+                  <div class="menu-item-overlay"></div>
+                  <div class="menu-item-info">
+                    <div class="menu-item-header">
+                      <h3 class="menu-item-name">Bridal Makeup</h3>
+                      <span class="menu-item-tag">Royal Bridal</span>
+                    </div>
+                    <p class="menu-item-desc">HD waterproof airbrush base, royal trousseau jewelry setting, jasmine hair updo, and dedicated bridal suite.</p>
+                    <span class="menu-item-duration">⏱ 180 min</span>
+                  </div>
+                  <div class="menu-item-action">
+                    <span class="menu-item-price">from ₹18,000</span>
+                    <a href="booking.html" class="btn btn-secondary btn-sm">Book Chair</a>
+                  </div>
+                </article>
+
+              </div>
+            </div>
+          </section>
+
+          <!-- 5. Spa & Body -->
+          <section class="service-category-group" data-category="spa-body">
+            <div class="category-group-header" role="button" tabindex="0" aria-expanded="true">
+              <div class="category-header-title">
+                <span class="category-num">05</span>
+                <h2 class="category-title">Spa &amp; Body</h2>
+                <span class="category-count">3 Options</span>
+              </div>
+              <span class="category-accordion-arrow">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </div>
+            <div class="category-group-content">
+              <div class="service-items-stack">
+                
+                <!-- Relaxing Massage -->
+                <article class="menu-item-row" data-category="spa-body">
+                  <div class="menu-item-bg" style="background-image: url('assets/images/spa-sanctuary.jpg');"></div>
+                  <div class="menu-item-overlay"></div>
+                  <div class="menu-item-info">
+                    <div class="menu-item-header">
+                      <h3 class="menu-item-name">Relaxing Massage</h3>
+                      <span class="menu-item-tag">Sanctuary</span>
+                    </div>
+                    <p class="menu-item-desc">Warm aromatic herbal potli compresses and organic sweet almond oil strokes relieving deep muscular tension.</p>
+                    <span class="menu-item-duration">⏱ 60 min</span>
+                  </div>
+                  <div class="menu-item-action">
+                    <span class="menu-item-price">from ₹2,500</span>
+                    <a href="booking.html" class="btn btn-secondary btn-sm">Book Chair</a>
+                  </div>
+                </article>
+
+                <!-- Head Massage -->
+                <article class="menu-item-row" data-category="spa-body">
+                  <div class="menu-item-bg" style="background-image: url('assets/images/spa-sanctuary.jpg');"></div>
+                  <div class="menu-item-overlay"></div>
+                  <div class="menu-item-info">
+                    <div class="menu-item-header">
+                      <h3 class="menu-item-name">Head Massage</h3>
+                      <span class="menu-item-tag">Ayurvedic Relief</span>
+                    </div>
+                    <p class="menu-item-desc">Traditional warm brahmi and cold-pressed amla oil application with neck and shoulder acupressure point release.</p>
+                    <span class="menu-item-duration">⏱ 30 min</span>
+                  </div>
+                  <div class="menu-item-action">
+                    <span class="menu-item-price">₹900</span>
+                    <a href="booking.html" class="btn btn-secondary btn-sm">Book Chair</a>
+                  </div>
+                </article>
+
+                <!-- Body Polish -->
+                <article class="menu-item-row" data-category="spa-body">
+                  <div class="menu-item-bg" style="background-image: url('assets/images/service-pedicure.jpg');"></div>
+                  <div class="menu-item-overlay"></div>
+                  <div class="menu-item-info">
+                    <div class="menu-item-header">
+                      <h3 class="menu-item-name">Body Polish</h3>
+                      <span class="menu-item-tag">Skin Renewal</span>
+                    </div>
+                    <p class="menu-item-desc">Gentle walnut and wild Kashmiri saffron scrub followed by warm floral milk rinse leaving skin velvet smooth.</p>
+                    <span class="menu-item-duration">⏱ 75 min</span>
+                  </div>
+                  <div class="menu-item-action">
+                    <span class="menu-item-price">from ₹3,000</span>
+                    <a href="booking.html" class="btn btn-secondary btn-sm">Book Chair</a>
+                  </div>
+                </article>
+
+              </div>
+            </div>
+          </section>
+
+          <!-- 6. Nails -->
+          <section class="service-category-group" data-category="nails">
+            <div class="category-group-header" role="button" tabindex="0" aria-expanded="true">
+              <div class="category-header-title">
+                <span class="category-num">06</span>
+                <h2 class="category-title">Nails</h2>
+                <span class="category-count">3 Options</span>
+              </div>
+              <span class="category-accordion-arrow">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </div>
+            <div class="category-group-content">
+              <div class="service-items-stack">
+                
+                <!-- Manicure -->
+                <article class="menu-item-row" data-category="nails">
+                  <div class="menu-item-bg" style="background-image: url('assets/images/service-nails.jpg');"></div>
+                  <div class="menu-item-overlay"></div>
+                  <div class="menu-item-info">
+                    <div class="menu-item-header">
+                      <h3 class="menu-item-name">Manicure</h3>
+                      <span class="menu-item-tag">Essential Nails</span>
+                    </div>
+                    <p class="menu-item-desc">Cuticle detailing, botanical scrub exfoliation, hand reflexology massage, and long-wear high gloss lacquer.</p>
+                    <span class="menu-item-duration">⏱ 45 min</span>
+                  </div>
+                  <div class="menu-item-action">
+                    <span class="menu-item-price">₹1,000</span>
+                    <a href="booking.html" class="btn btn-secondary btn-sm">Book Chair</a>
+                  </div>
+                </article>
+
+                <!-- Pedicure -->
+                <article class="menu-item-row" data-category="nails">
+                  <div class="menu-item-bg" style="background-image: url('assets/images/service-pedicure.jpg');"></div>
+                  <div class="menu-item-overlay"></div>
+                  <div class="menu-item-info">
+                    <div class="menu-item-header">
+                      <h3 class="menu-item-name">Pedicure</h3>
+                      <span class="menu-item-tag">Foot Sanctuary</span>
+                    </div>
+                    <p class="menu-item-desc">Warm hammered copper basin soak with rose petals, eucalyptus salt scrub, clay mask, and foot reflexology massage.</p>
+                    <span class="menu-item-duration">⏱ 60 min</span>
+                  </div>
+                  <div class="menu-item-action">
+                    <span class="menu-item-price">₹1,400</span>
+                    <a href="booking.html" class="btn btn-secondary btn-sm">Book Chair</a>
+                  </div>
+                </article>
+
+                <!-- Gel Extensions -->
+                <article class="menu-item-row" data-category="nails">
+                  <div class="menu-item-bg" style="background-image: url('assets/images/service-nails.jpg');"></div>
+                  <div class="menu-item-overlay"></div>
+                  <div class="menu-item-info">
+                    <div class="menu-item-header">
+                      <h3 class="menu-item-name">Gel Extensions</h3>
+                      <span class="menu-item-tag">Nail Couture</span>
+                    </div>
+                    <p class="menu-item-desc">Lightweight sculpted soft gel extensions with Russian manicure prep, French ombré, and champagne gold accents.</p>
+                    <span class="menu-item-duration">⏱ 90 min</span>
+                  </div>
+                  <div class="menu-item-action">
+                    <span class="menu-item-price">from ₹2,800</span>
+                    <a href="booking.html" class="btn btn-secondary btn-sm">Book Chair</a>
+                  </div>
+                </article>
+
+              </div>
+            </div>
+          </section>
+
+          <!-- 7. Men’s Grooming -->
+          <section class="service-category-group" data-category="grooming">
+            <div class="category-group-header" role="button" tabindex="0" aria-expanded="true">
+              <div class="category-header-title">
+                <span class="category-num">07</span>
+                <h2 class="category-title">Men’s Grooming</h2>
+                <span class="category-count">3 Options</span>
+              </div>
+              <span class="category-accordion-arrow">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polyline points="6 9 12 15 18 9"/></svg>
+              </span>
+            </div>
+            <div class="category-group-content">
+              <div class="service-items-stack">
+                
+                <!-- Beard Design -->
+                <article class="menu-item-row" data-category="grooming">
+                  <div class="menu-item-bg" style="background-image: url('assets/images/mens-grooming.jpg');"></div>
+                  <div class="menu-item-overlay"></div>
+                  <div class="menu-item-info">
+                    <div class="menu-item-header">
+                      <h3 class="menu-item-name">Beard Design</h3>
+                      <span class="menu-item-tag">Precision Edging</span>
+                    </div>
+                    <p class="menu-item-desc">Eucalyptus hot towel compress, razor sharp line definition, volume trim, and cedarwood oil conditioning.</p>
+                    <span class="menu-item-duration">⏱ 25 min</span>
+                  </div>
+                  <div class="menu-item-action">
+                    <span class="menu-item-price">₹500</span>
+                    <a href="booking.html" class="btn btn-secondary btn-sm">Book Chair</a>
+                  </div>
+                </article>
+
+                <!-- Men’s Hair Colour -->
+                <article class="menu-item-row" data-category="grooming">
+                  <div class="menu-item-bg" style="background-image: url('assets/images/mens-grooming.jpg');"></div>
+                  <div class="menu-item-overlay"></div>
+                  <div class="menu-item-info">
+                    <div class="menu-item-header">
+                      <h3 class="menu-item-name">Men’s Hair Colour</h3>
+                      <span class="menu-item-tag">Grey Blending</span>
+                    </div>
+                    <p class="menu-item-desc">Discreet ammonia-free natural tone blending that subtly softens grey without an artificial colored look.</p>
+                    <span class="menu-item-duration">⏱ 90 min</span>
+                  </div>
+                  <div class="menu-item-action">
+                    <span class="menu-item-price">from ₹2,000</span>
+                    <a href="booking.html" class="btn btn-secondary btn-sm">Book Chair</a>
+                  </div>
+                </article>
+
+                <!-- Grooming Facial -->
+                <article class="menu-item-row" data-category="grooming">
+                  <div class="menu-item-bg" style="background-image: url('assets/images/skincare-facial.jpg');"></div>
+                  <div class="menu-item-overlay"></div>
+                  <div class="menu-item-info">
+                    <div class="menu-item-header">
+                      <h3 class="menu-item-name">Grooming Facial</h3>
+                      <span class="menu-item-tag">Executive Detox</span>
+                    </div>
+                    <p class="menu-item-desc">Charcoal detox scrub, blackhead extraction, cold stone eye compress, and neck and shoulder relief.</p>
+                    <span class="menu-item-duration">⏱ 60 min</span>
+                  </div>
+                  <div class="menu-item-action">
+                    <span class="menu-item-price">from ₹1,800</span>
+                    <a href="booking.html" class="btn btn-secondary btn-sm">Book Chair</a>
+                  </div>
+                </article>
+
+              </div>
+            </div>
+          </section>
+
+        </div>
+
+        <div id="noServiceResults" style="display: none; text-align: center; padding: 4rem 1rem;">
+          <h3 style="font-family: var(--font-display); color: var(--gold-primary); margin-bottom: 0.5rem;">No Matching Services Found</h3>
+          <p style="color: var(--text-muted); font-size: 0.9rem;">Try adjusting your search keywords or clearing your active category filter.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CITY-SPECIFIC SERVICE DISCOVERY (MUMBAI, DELHI, BENGALURU, HYDERABAD, PUNE, JAIPUR) -->
+    <section class="section" style="background-color: var(--bg-secondary); border-top: 1px solid var(--border-light);">
+      <div class="container">
+        <div class="section-header">
+          <span class="editorial-tag">Metropolitan Discovery</span>
+          <h2 class="editorial-title" style="font-size: clamp(2rem, 3.5vw, 2.8rem);">
+            CITY SERVICE COVERAGE
+          </h2>
+          <p>
+            Review popular salon and bridal demand by metropolitan market. Clearly noted as demo cities served or prospective franchise catchments.
+          </p>
+        </div>
+
+        <div class="city-grid">
+          
+          <div class="city-card">
+            <div>
+              <span class="city-badge">Maharashtra</span>
+              <h3 class="city-name">MUMBAI</h3>
+              <p class="city-address-sample">Demo Studio: Turner Road, Bandra West 400050</p>
+              <ul class="city-popular-list">
+                <li>✦ Balayage from ₹7,500 &bull; Haircut ₹1,200</li>
+                <li>✦ Signature Blowout &amp; VIP Suite Styling</li>
+              </ul>
+            </div>
+            <a href="booking.html" class="btn btn-secondary btn-sm" style="width: 100%;">Enquire For Mumbai</a>
+          </div>
+
+          <div class="city-card">
+            <div>
+              <span class="city-badge">NCR Region</span>
+              <h3 class="city-name">DELHI NCR</h3>
+              <p class="city-address-sample">Demo Studio: Golf Course Road, DLF Phase 5 122002</p>
+              <ul class="city-popular-list">
+                <li>✦ Royal Bridal Makeup from ₹18,000</li>
+                <li>✦ Sangeet Hair Styling &amp; Men's Grooming</li>
+              </ul>
+            </div>
+            <a href="booking.html" class="btn btn-secondary btn-sm" style="width: 100%;">Enquire For Delhi NCR</a>
+          </div>
+
+          <div class="city-card">
+            <div>
+              <span class="city-badge">Karnataka</span>
+              <h3 class="city-name">BENGALURU</h3>
+              <p class="city-address-sample">Demo Studio: 12th Main, Indiranagar 560038</p>
+              <ul class="city-popular-list">
+                <li>✦ Ayurvedic Rose Spa from ₹2,500</li>
+                <li>✦ Brazilian Keratin Infusion &amp; Blowouts</li>
+              </ul>
+            </div>
+            <a href="booking.html" class="btn btn-secondary btn-sm" style="width: 100%;">Enquire For Bengaluru</a>
+          </div>
+
+          <div class="city-card">
+            <div>
+              <span class="city-badge">Telangana</span>
+              <h3 class="city-name">HYDERABAD</h3>
+              <p class="city-address-sample">Demo Studio: Road No. 36, Jubilee Hills 500033</p>
+              <ul class="city-popular-list">
+                <li>✦ 24K Gold Facials from ₹2,500</li>
+                <li>✦ Trousseau Dressing &amp; Men's Beard Design</li>
+              </ul>
+            </div>
+            <a href="booking.html" class="btn btn-secondary btn-sm" style="width: 100%;">Enquire For Hyderabad</a>
+          </div>
+
+          <div class="city-card">
+            <div>
+              <span class="city-badge">Maharashtra</span>
+              <h3 class="city-name">PUNE</h3>
+              <p class="city-address-sample">Demo Studio: Koregaon Park, North Main Road 411001</p>
+              <ul class="city-popular-list">
+                <li>✦ Men's Haircut ₹700 &bull; Beard ₹500</li>
+                <li>✦ Party Makeup from ₹4,500 &bull; Nail Extensions</li>
+              </ul>
+            </div>
+            <a href="booking.html" class="btn btn-secondary btn-sm" style="width: 100%;">Enquire For Pune</a>
+          </div>
+
+          <div class="city-card">
+            <div>
+              <span class="city-badge">Rajasthan</span>
+              <h3 class="city-name">JAIPUR</h3>
+              <p class="city-address-sample">Demo Studio: C-Scheme, Ashok Nagar 302001</p>
+              <ul class="city-popular-list">
+                <li>✦ Destination Bridal Trousseau from ₹18,000</li>
+                <li>✦ Ayurvedic Head Massage &amp; Body Polish</li>
+              </ul>
+            </div>
+            <a href="booking.html" class="btn btn-secondary btn-sm" style="width: 100%;">Enquire For Jaipur</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- VIP SIGN IN / CLIENT PORTAL MODAL -->
+  <dialog id="authModal" class="custom-modal" aria-labelledby="authModalTitle">
+    <div class="modal-header">
+      <h3 id="authModalTitle" style="font-size: 1.3rem;">
+        VIP PRIVÉ PORTAL
+      </h3>
+      <button id="closeAuthModal" class="modal-close-btn" aria-label="Close VIP Portal">&times;</button>
+    </div>
+    <form id="clientAuthForm">
+      <div class="form-group" style="margin-bottom: 1.2rem;">
+        <label for="authIdentifier" class="form-label">Phone Number or VIP Email</label>
+        <input type="text" id="authIdentifier" class="form-control" placeholder="+91 98765 43210 or vip@client.in" required>
+      </div>
+      <div class="form-group" style="margin-bottom: 1.5rem;">
+        <label for="authPin" class="form-label">4-Digit Security PIN or OTP</label>
+        <input type="password" id="authPin" class="form-control" placeholder="••••" maxlength="6">
+      </div>
+      <button type="submit" class="btn btn-primary" style="width: 100%;">Sign In to VIP Privé</button>
+      <div id="authStatusMessage"></div>
+    </form>
+  </dialog>
+
+  <!-- FLOATING CONCIERGE CONTACT WIDGET -->
+  <div class="floating-contact-widget" id="floatingContactWidget">
+    <!-- Popover Menu -->
+    <div class="floating-contact-menu" id="floatingContactMenu" role="dialog" aria-modal="false" aria-label="Contact VOGUE SALON" hidden>
+      <div class="floating-menu-header">
+        <span class="floating-menu-title">Salon Concierge</span>
+        <span class="floating-menu-status"><span class="status-dot"></span> Available 10am–9pm</span>
+      </div>
+      <div class="floating-menu-items">
+        <a href="https://wa.me/917758990684" target="_blank" rel="noopener noreferrer" class="floating-menu-item item-whatsapp" aria-label="WhatsApp 7758990684">
+          <div class="item-icon-wrap whatsapp-icon-wrap">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.05 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+          </div>
+          <div class="item-text-wrap">
+            <span class="item-label">WhatsApp 7758990684</span>
+            <span class="item-sub">Instant chat &amp; consultations</span>
+          </div>
+          <svg class="item-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+
+        <a href="tel:7758990684" class="floating-menu-item item-phone" aria-label="Call 7758990684">
+          <div class="item-icon-wrap phone-icon-wrap">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+          </div>
+          <div class="item-text-wrap">
+            <span class="item-label">Call 7758990684</span>
+            <span class="item-sub">Direct atelier front desk</span>
+          </div>
+          <svg class="item-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Main Trigger Button -->
+    <button type="button" class="floating-trigger-btn" id="floatingContactTrigger" aria-expanded="false" aria-controls="floatingContactMenu" aria-label="Contact VOGUE SALON" title="Contact VOGUE SALON">
+      <span class="trigger-icon trigger-icon-closed">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+        </svg>
+      </span>
+      <span class="trigger-icon trigger-icon-opened">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </span>
+      <span class="trigger-pulse" aria-hidden="true"></span>
+    </button>
+  </div>
+
+  <!-- SITE FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="brand-logo" style="margin-bottom: 1.2rem;">
+            <span class="logo-main">VOGUE SALON</span>
+            <span class="logo-sub">Haute Coiffure &bull; Spa &bull; Privé</span>
+          </a>
+          <p style="font-size: 0.88rem; line-height: 1.7;">
+            India’s luxury destination for couture hair transformations, royal bridal makeup, serene spa therapies, and master grooming.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>EXPLORE</h4>
+          <ul class="footer-links">
+            <li><a href="services.html">Full Service Menu (₹)</a></li>
+            <li><a href="signature-looks.html">Signature Looks</a></li>
+            <li><a href="booking.html">Book Appointment</a></li>
+            <li><a href="franchise.html">Franchise</a></li>
+            <li><a href="about.html">About Philosophy</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>CONTACT</h4>
+          <div class="footer-contact-item">
+            <div><strong>Direct &amp; WhatsApp</strong><br><a href="tel:7758990684">7758990684</a></div>
+          </div>
+          <div class="footer-contact-item">
+            <div><strong>Hours (Demo)</strong><br>Mon – Sun: 10:00 AM – 9:00 PM</div>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>FRANCHISE</h4>
+          <p style="font-size: 0.86rem; color: #b5ad9f; margin-bottom: 1rem;">
+            Luxury salon franchise partnerships open in Mumbai, Delhi, Bengaluru, Hyderabad, Pune, and Jaipur.
+          </p>
+          <a href="franchise.html" class="btn btn-secondary btn-sm">Partner Dossier</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 VOGUE SALON India. All rights reserved.</div>
+        <div>* Sample prices in INR (₹) shown for salon demonstration purposes.</div>
+      </div>
+      <div class="footer-credit">
+        The Website Designed &amp; Developed by <a href="tel:+918624990684" class="footer-credit-link">Vinit Chandure</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
